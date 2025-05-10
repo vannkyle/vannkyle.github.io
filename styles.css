@@ -78,6 +78,30 @@ img {
     pointer-events: none;
 }
 
+/* Canvas Particles */
+.canvas-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Gradient Background Fallback */
+.gradient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent 70%),
+                radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.05), transparent 70%);
+    z-index: -2;
+    pointer-events: none;
+}
+
 /* Container */
 .container {
     width: 100%;
